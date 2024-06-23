@@ -1,0 +1,10 @@
+Sun Jun 23 20:34:34 UTC 2024
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   1 touch newFile
+   2 date > newFile
+   3 df -h / >> newFile
+   4 cat newFile
+   5 history | tail -5 >> newFile
+vendor_id
+33

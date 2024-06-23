@@ -1,0 +1,14 @@
+   0 cd /home
+   1 touch newFile
+   2 date > newFile
+   3 df -h / >> newFile
+   4 cat newFile
+   5 history | tail -5 >> newFile
+   6 cat newFile
+   7 cat /proc/cpuinfo | grep vendor >> newFile
+   8 vi newFile
+   9 ps -ef | wc -l >> newFile
+  10 cat newFile
+  11 export_file newFile
+  12 export_file history.txt
+  13 history > history.txt
